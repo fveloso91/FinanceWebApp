@@ -1,0 +1,52 @@
+form {
+    margin: 5% auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 350px;
+    background-color: silver;
+    padding: 40px;
+}
+
+.log-sign-buttons {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 18px auto;
+}
+
+.log-sign-buttons .button {
+    text-align: center;
+    width: 100%;
+    border: 2px dotted gray;
+    cursor: pointer;
+    background-color: silver;
+}
+
+.button.clicked {
+    background-color: #007bff;
+}
+
+.input-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 16px auto;
+}
+
+.input-row label {
+    width: 10%;
+    text-align: left;
+}
+.input-row input {
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+}
